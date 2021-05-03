@@ -32,9 +32,7 @@ function setup() {
   }
   
   
-    for (var k = 0; k <=410; k = k +410) {
-      divisions.push(new Divisions(k, height-divisionHeight/2, 10, divisionHeight));
-    }
+    
     for (var k = 0; k <=490; k = k + 490) {
       divisions.push(new Divisions(k, height-divisionHeight/2, 10, divisionHeight));
     }
